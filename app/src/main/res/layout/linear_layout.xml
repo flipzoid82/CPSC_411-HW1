@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="horizontal">
+
+    <!--For col 1 (line numbers 1-11)-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#8F8F8F"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="2"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="5"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="9"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="10"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="11"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <!--BEGIN Container for lines 2 to 11-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="530dp"
+            android:layout_height="wrap_content"
+            android:background="#000"
+            android:paddingLeft="10dp"
+            android:paddingRight="100dp"
+            android:text="Rules void hello1(int hour)"
+            android:textAlignment="center"
+            android:textColor="#fff" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--BEGIN lines 2 to 3-->
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="9dp"
+                            android:paddingRight="20dp"
+                            android:paddingBottom="9dp"
+                            android:text="properties"
+                            android:textAlignment="center" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="73dp"
+                                android:paddingRight="73dp"
+                                android:text="name"
+                                android:textAlignment="center" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="63dp"
+                                android:paddingRight="63dp"
+                                android:text="category"
+                                android:textAlignment="center" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="95dp"
+                                android:text="Day Hour Classification"
+                                android:textAlignment="viewStart" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="2dp"
+                                android:paddingRight="100dp"
+                                android:text="Day and Time"
+                                android:textAlignment="textStart" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </TableRow>
+                <!--END lines 2 to 3-->
+
+                <!--BEGIN lines 4 to 11-->
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!--BEGIN line 4-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#9CCBF1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="39dp"
+                                android:paddingEnd="40dp"
+                                android:text="Rule" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="83dp"
+                                android:paddingEnd="82dp"
+                                android:text="C1" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="115dp"
+                                android:paddingEnd="114dp"
+                                android:text="A1" />
+                        </LinearLayout>
+                        <!--END line 4-->
+
+                        <!--BEGIN line 5-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#9CCBF1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="51dp"
+                                android:paddingEnd="51dp"
+                                android:text=" " />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="2dp"
+                                android:text='min &lt;= hour &amp;&amp; hour &lt;= max' />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="2dp"
+                                android:text='System.out.println(greeting + ",World")' />
+                        </LinearLayout>
+                        <!--END line 5-->
+
+                        <!--BEGIN line 6-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#9CCBF1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="51dp"
+                                android:paddingEnd="51dp"
+                                android:text=" " />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="23dp"
+                                android:paddingEnd="23dp"
+                                android:text="int min" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="23dp"
+                                android:paddingEnd="23dp"
+                                android:text="int max" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="77dp"
+                                android:paddingEnd="78dp"
+                                android:text="String greeting" />
+                        </LinearLayout>
+                        <!--END line 6-->
+
+                        <!--BEGIN line 7-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="76dp"
+                                android:text="Rule" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="54dp"
+                                android:text="From" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="74dp"
+                                android:text="To" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#DB9835"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="191dp"
+                                android:text="Greeting" />
+                        </LinearLayout>
+                        <!--END line 7-->
+
+                        <!--BEGIN line 8-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="80dp"
+                                android:text="R10" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="80dp"
+                                android:paddingEnd="2dp"
+                                android:text="0"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="74dp"
+                                android:paddingEnd="2dp"
+                                android:text="11"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#DB9835"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="155dp"
+                                android:text="Good Morning" />
+                        </LinearLayout>
+                        <!--END line 8-->
+
+                        <!--BEGIN line 9-->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="80dp"
+                                android:text="R20" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="73dp"
+                                android:paddingEnd="2dp"
+                                android:text="12"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="74dp"
+                                android:paddingEnd="2dp"
+                                android:text="17"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#DB9835"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="142dp"
+                                android:text="Good Afternoon" />
+                        </LinearLayout>
+                        <!--END line 9-->
+
+                        <!--BEGIN line 10-->
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="80dp"
+                                android:text="R30" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="73dp"
+                                android:paddingEnd="2dp"
+                                android:text="18"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="74dp"
+                                android:paddingEnd="2dp"
+                                android:text="21"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#DB9835"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="158dp"
+                                android:text="Good Evening" />
+                        </LinearLayout>
+                        <!--END line 10-->
+
+                        <!--BEGIN line 11-->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="80dp"
+                                android:text="R40" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="73dp"
+                                android:paddingEnd="2dp"
+                                android:text="22"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#F7EB88"
+                                android:paddingStart="74dp"
+                                android:paddingEnd="2dp"
+                                android:text="23"
+                                android:textAlignment="textEnd" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="#DB9835"
+                                android:paddingStart="2dp"
+                                android:paddingEnd="172dp"
+                                android:text="Good Night" />
+                        </LinearLayout>
+                        <!--END line 11-->
+
+                    </LinearLayout>
+                </TableRow>
+                <!--END lines 4 to 11-->
+            </TableLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+    <!--END Container for lines 2 to 11-->
+</LinearLayout>
