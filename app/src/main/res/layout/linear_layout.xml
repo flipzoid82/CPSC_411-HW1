@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFF"
+    android:background="#000"
     android:orientation="horizontal">
 
     <!--For col 1 (line numbers 1-11)-->
@@ -84,6 +84,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#fff"
         android:orientation="vertical">
 
         <TextView
@@ -194,21 +195,24 @@
                                 android:layout_height="wrap_content"
                                 android:paddingStart="39dp"
                                 android:paddingEnd="40dp"
-                                android:text="Rule" />
+                                android:text="Rule"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingStart="83dp"
                                 android:paddingEnd="82dp"
-                                android:text="C1" />
+                                android:text="C1"
+                                android:textStyle="bold" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:paddingStart="115dp"
                                 android:paddingEnd="114dp"
-                                android:text="A1" />
+                                android:text="A1"
+                                android:textStyle="bold" />
                         </LinearLayout>
                         <!--END line 4-->
 
