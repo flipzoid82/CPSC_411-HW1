@@ -11,5 +11,6 @@ The Android Manifest XML line 12 should be set to:
       
       <activity android:name=".[JAVA_FILE]"> 
       
-      where JAVA_FILE = LinearActivity.java to run the first version and JAVA_FILE = Java_plusXMLActivity.java to run 
-      the second version.
+where JAVA_FILE = LinearActivity to run the first version and JAVA_FILE = Java_plusXMLActivity to run the second version.
+      
+      
